@@ -10,8 +10,8 @@ int a = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите второе число: ");
 int b = int.Parse(Console.ReadLine()!);
 
-if (a>b) Console.WriteLine($"max = {a}");
-if (a<b) Console.WriteLine($"max = {b}");
+if (a>b) Console.WriteLine($"max = {a}, min = {b}");
+if (a<b) Console.WriteLine($"max = {b}, min = {a}");
 if (a==b) Console.WriteLine($"Числа равны и max = {a}");
 
        
